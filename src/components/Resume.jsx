@@ -1,4 +1,4 @@
-import ResumeImage from "../assets/Rushikesh_Kale_Java_FullStack_Developer.jpg";
+import ResumeImage from "../assets/Rushikesh_Kale_Application_Support_Engineer_Resume.jpg";
 
 export default function Resume() {
   const handleDownload = () => {
@@ -19,7 +19,7 @@ export default function Resume() {
         <div className="resume-preview">
           <img
             src={ResumeImage}
-            alt="Rushikesh Kale – Java Full Stack Developer Resume"
+            alt="Rushikesh Kale – Application Support Engineer Resume"
             className="resume-img"
           />
         </div>

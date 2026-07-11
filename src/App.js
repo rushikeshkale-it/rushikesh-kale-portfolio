@@ -1,8 +1,8 @@
 import './index.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Experience from "./components/Experience";
 import Skills from './components/Skills';
-import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -15,12 +15,12 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
       <Education />
       <Skills />
-      <Projects />
       <Resume />
       <Contact />
-      <Footer /> {/* ✅ Proper footer added */}
+      <Footer />
     </div>
   );
 }

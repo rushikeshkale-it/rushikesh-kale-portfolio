@@ -10,28 +10,28 @@ export default function Contact() {
     },
     {
       title: "Email Address",
-      value: "rushikeshkale.dev@gmail.com",
+      value: "rushikeshkale.it@gmail.com",
       icon: <FaEnvelope />,
-      link: "mailto:rushikeshkale.dev@gmail.com"
+      link: "mailto:rushikeshkale.it@gmail.com"
     },
     {
       title: "LinkedIn",
       value: "Connect",
       icon: <FaLinkedinIn />,
-      link: "https://www.linkedin.com/in/rushikeshkale-dev/"
+      link: "https://www.linkedin.com/in/rushikeshkale-it/"
     },
     {
       title: "Instagram",
       value: "Follow",
       icon: <FaInstagram />,
-      link: "https://www.instagram.com/rushikesh_kale_deshmukh?igsh=cG5jaGd0Y3ZuYWp4"
+      link: ""
     }
   ];
 
   return (
     <section id="contact">
-      <p className="section-subtitle">Let’s talk</p>
-      <h2 className="section-title">Ready for the next opportunity.</h2>
+      <p className="section-subtitle">Let's Connect</p>
+      <h2 className="section-title">Thank you for exploring my portfolio</h2>
 
       <div className="contact-grid">
         {contactCards.map((item, idx) => {

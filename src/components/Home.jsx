@@ -1,14 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { FaArrowRight } from "react-icons/fa";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaInstagram,
-  FaTwitter
-} from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { FaArrowRight, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import ProfileImage from "../assets/ProfileImage.jpg";
 
@@ -63,10 +55,12 @@ function useTypingText(
 export default function Home() {
   const rotatingText = useTypingText(
     [
-      "Java Developer",
-      "Spring Boot Backend Developer",
-      "React Frontend Developer",
-      "I build modern web applications"
+      "Application Support Engineer",
+      "Production Support Engineer",
+      "IT Operations Professional",
+      "Problem Solver"
+
+
     ],
     90,
     45,
@@ -100,9 +94,7 @@ export default function Home() {
               transition={{ delay: 0.15, duration: 0.6 }}
               className="home-desc"
             >
-              I build scalable Spring Boot microservices and modern React
-              applications with clean UI, secure APIs, and performance-focused
-              architecture.
+              Application Support Engineer with 2+ years of hands-on experience keeping production systems running smoothly
             </motion.p>
 
             <motion.div
@@ -121,57 +113,13 @@ export default function Home() {
               transition={{ delay: 0.25, duration: 0.6 }}
               className="home-social"
             >
-              <a
-                href="https://github.com/rushikeshkale-dev"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
+              <a href="https://github.com/rushikeshkale-it" target="_blank" rel="noreferrer" className="social-icon">
                 <FaGithub />
               </a>
-
-              <a
-                href="https://www.linkedin.com/in/rushikeshkale-dev/"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
+              <a href="https://www.linkedin.com/in/rushikeshkale-it/" target="_blank" rel="noreferrer" className="social-icon">
                 <FaLinkedin />
               </a>
-
-              <a
-                href="https://m.facebook.com/rushikesh.kaledeshmukh/"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
-                <FaFacebook />
-              </a>
-
-              <a
-                href="https://www.instagram.com/rushikesh_kale_deshmukh?igsh=cG5jaGd0Y3ZuYWp4"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
-                <FaInstagram />
-              </a>
-
-              <a
-                href="https://leetcode.com/u/rushikeshkaledev/"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
-                <SiLeetcode />
-              </a>
-
-              <a
-                href="https://x.com/KaleRushik51028"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
+              <a href="https://x.com/Rushikeshkk" target="_blank" rel="noreferrer" className="social-icon">
                 <FaTwitter />
               </a>
             </motion.div>
@@ -194,11 +142,7 @@ export default function Home() {
             className="home-imageSide"
           >
             <div className="home-imageWrap">
-              <img
-                src={ProfileImage}
-                alt="Rushikesh Kale"
-                className="home-image"
-              />
+              <img src={ProfileImage} alt="Rushikesh Kale" className="home-image" />
             </div>
           </motion.div>
         </div>

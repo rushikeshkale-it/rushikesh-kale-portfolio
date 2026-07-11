@@ -2,23 +2,14 @@ export default function About() {
   return (
     <section id="about">
       <p className="section-subtitle">About me</p>
-      <h2 className="section-title">Who is Rushikesh?</h2>
+      <h2 className="section-title">A Quick Introduction</h2>
 
       <div className="card about-card">
         <p className="about-text">
-          Hi, I’m Rushikesh. I’m an MCA student and a Java Full Stack Developer
-          (Fresher) passionate about building clean, scalable, and user-friendly
-          web applications. I work with Java, Spring Boot, REST APIs, and
-          databases like MySQL/PostgreSQL, along with modern frontend
-          technologies like React and JavaScript.
-        </p>
+I work as an Application Support Engineer in the banking domain. My role involves monitoring applications, resolving production issues, and focus on keeping systems stable and available. I have experience with SQL, Linux, Control-M, ServiceNow, Dynatrace, and Splunk. I like learning new technologies and improving my technical skills. My goal is to deliver reliable support and contribute to business success.        </p>
 
-        <p className="about-text about-text-last">
-          I enjoy solving real-world problems through code, following clean
-          coding practices, and continuously learning new tools and frameworks.
-          I’m currently looking for Java Backend / Full Stack opportunities
-          where I can contribute, learn, and grow as a developer.
-        </p>
+      
+     
       </div>
 
       <style>

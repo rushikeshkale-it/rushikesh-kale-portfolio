@@ -2,27 +2,26 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    title: "MCA (Master of Computer Applications)",
-    institute:
-      "Pillai HOC College of Engineering & Technology, University of Mumbai",
-    cgpa: "7.47 CGPA (Current Semester: SGPA 8.30/10)",
-    year: "Sep 2024 - May 2026",
-    meta: "Rasayani, Maharashtra 410207"
-  },
-  {
     title: "BCA (Bachelor of Computer Applications)",
     institute:
       "Shriman Bhausaheb Zadbuke Mahavidyalaya, Punyashlok Ahilyadevi Holkar Solapur University",
     cgpa: "8.53 CGPA",
-    year: "Sep 2021 - May 2024",
-    meta: "Barshi, Maharashtra, 413401"
+    year: "Sep 2021 - June 2024",
+    meta: "Barshi, Maharashtra, 413411"
   },
   {
     title: "12th (Computer Science)",
     institute: "Sulakhe Secondary and Higher Secondary High School",
     percentage: "80.17%",
     year: "Jun 2020 - Aug 2021",
-    meta: "Barshi, Maharashtra, 413401"
+    meta: "Barshi, Maharashtra, 413411"
+  },
+   {
+    title: "10th",
+    institute: "Maharashtra Vidyalaya",
+    percentage: "71.40%",
+    year: "Jun 2020 - March 2021",
+    meta: "Barshi, Maharashtra, 413411"
   }
 ];
 
@@ -34,7 +33,7 @@ export default function Education() {
 
         <h2 className="section-title edu-title">Education</h2>
 
-        <p className="section-subtitle">MCA → BCA → 12th CS</p>
+        <p className="section-subtitle">MCA → BCA → 12th CS → 10th</p>
 
         <div className="edu-li-wrap">
           <div className="edu-li-line" />

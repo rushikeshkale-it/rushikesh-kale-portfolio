@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-left">
           <div className="footer-brand">Rushikesh Kale</div>
-          <div className="footer-sub">Java Full Stack Developer • Pune, India</div>
+          <div className="footer-sub">Application Support Engineer • Pune, India</div>
         </div>
 
         <div className="footer-right">
@@ -31,13 +31,7 @@ export default function Footer() {
           >
             Skills
           </a>
-          <a
-            href="#projects"
-            className="footer-link"
-            onClick={(e) => handleScroll(e, "projects")}
-          >
-            Projects
-          </a>
+        
           <a
             href="#resume"
             className="footer-link"

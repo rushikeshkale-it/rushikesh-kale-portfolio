@@ -6,12 +6,12 @@ import ProfileImage from "../assets/ProfileImage.jpg";
 const navItems = [
   { label: "Home", to: "home" },
   { label: "About", to: "about" },
+  { label: "Experience", to: "experience" },
 
 
   { label: "Education", to: "education" },
 
   { label: "Skills", to: "skills" },
-  { label: "Projects", to: "projects" },
   { label: "Resume", to: "resume" },
   { label: "Contact", to: "contact" }
 ];
@@ -131,7 +131,7 @@ export default function Navbar() {
               Rushikesh Kale
             </div>
             <div style={{ fontSize: 12.5, color: subtitleColor }}>
-              Java Full Stack Developer
+              Application Support Engineer
             </div>
           </div>
         </div>
