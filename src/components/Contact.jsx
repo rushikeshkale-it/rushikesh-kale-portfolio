@@ -24,7 +24,7 @@ export default function Contact() {
       title: "Instagram",
       value: "Follow",
       icon: <FaInstagram />,
-      link: ""
+      link: "https://www.instagram.com/rushikesh_kale_deshmukh/"
     }
   ];
 
