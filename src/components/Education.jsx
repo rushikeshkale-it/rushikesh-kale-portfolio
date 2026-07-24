@@ -33,7 +33,7 @@ export default function Education() {
 
         <h2 className="section-title edu-title">Education</h2>
 
-        <p className="section-subtitle">MCA → BCA → 12th CS → 10th</p>
+        <p className="section-subtitle">BCA → 12th CS → 10th</p>
 
         <div className="edu-li-wrap">
           <div className="edu-li-line" />
