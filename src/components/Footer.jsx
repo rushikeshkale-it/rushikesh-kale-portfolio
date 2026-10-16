@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-left">
           <div className="footer-brand">Rushikesh Kale</div>
-          <div className="footer-sub">Application Support Engineer • Pune, India</div>
+          <div className="footer-sub">Application Support Engineer • Mumbai, India</div>
         </div>
 
         <div className="footer-right">
