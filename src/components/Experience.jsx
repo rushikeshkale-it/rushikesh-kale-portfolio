@@ -3,24 +3,23 @@ import { motion } from "framer-motion";
 const experienceData = [
   {
     title: "Application Support Engineer",
-    company: "Sofrego Private Limited",
-    duration: "Sep 2024 - Present",
-    location: "Pune, Maharashtra",
+    company: "DevionX Technologies",
+    duration: "Jan 2025 - Oct 2026",
+    location: "Mumbai, Maharashtra",
 
-    responsibilities: [
-      "Provided L1/L2 production support for enterprise applications, ensuring high availability and SLA compliance.",
-      "Monitored and supported Java applications deployed on Apache Tomcat in a Linux production environment.",
-      "Scheduled and monitored batch jobs in Control-M, ensuring successful execution and SLA compliance.",
-      "Monitored email alerts, system notifications, and ticket queues to identify and resolve production issues within SLA.",
-      "Executed SQL queries for data validation and production issue investigation.",
-      "Investigated and troubleshot Database, Application Server, and Linux OS related issues.",
-      "Coordinated with Development, DBA, Infrastructure, Network, and Business teams to resolve incidents.",
-      "Managed Incidents, Service Requests, and Change Requests using ServiceNow.",
-      "Used PuTTY for Linux server access and SSMS for SQL query execution and database monitoring.",
-      "Performed application monitoring using Dynatrace and log analysis using Splunk.",
-      "Automated repetitive operational tasks using Shell Scripting.",
-      "Performed Root Cause Analysis (RCA) and implemented permanent fixes.",
-      "Created SOPs and Knowledge Base documents for production support."
+responsibilities: [
+  "Provided L1 production support to clients on a 24x7 basis, ensuring application availability and operational stability.",
+  "Monitored email alerts, notification emails, and ticket queues, acknowledging incidents based on priority.",
+  "Monitored and troubleshot batch jobs in Control-M to ensure successful execution.",
+  "Executed DDL and DML statements in SQL Server to investigate and resolve production issues.",
+  "Resolved application-related queries and issues using the ServiceNow ticketing system.",
+  "Participated in daily cross-functional team meetings and weekly client calls.",
+  "Applied ITIL concepts, including Incident Management, Change Management, and Deployment processes.",
+  "Managed incidents and user service requests within defined SLA timelines.",
+  "Monitored ETL processes and database replication to ensure smooth data flow.",
+  "Ensured continuous application availability and operational stability through proactive monitoring.",
+  "Collaborated with development teams to resolve application issues and support deployments.",
+  "Identified and implemented performance improvements for applications and database queries."
     ]
   }
 ];
