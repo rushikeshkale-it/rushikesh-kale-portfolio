@@ -17,7 +17,7 @@ export default function Contact() {
  
   ];
 
-  return (
+  return ( 
     <section id="contact">
       <p className="section-subtitle">Let's Connect</p>
       <h2 className="section-title">Thank you for exploring my portfolio</h2>
