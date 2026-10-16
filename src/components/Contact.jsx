@@ -4,28 +4,17 @@ export default function Contact() {
   const contactCards = [
     {
       title: "Address",
-      value: "Pune, India",
+      value: "India",
       icon: <FaMapMarkerAlt />,
       link: null
     },
     {
       title: "Email Address",
-      value: "rushikeshkale.it@gmail.com",
+      value: "kalerushikesh033@gmail.com",
       icon: <FaEnvelope />,
-      link: "mailto:rushikeshkale.it@gmail.com"
+      link: "mailto:kalerushikesh033@gmail.com"
     },
-    {
-      title: "LinkedIn",
-      value: "Connect",
-      icon: <FaLinkedinIn />,
-      link: "https://www.linkedin.com/in/rushikeshkale-it/"
-    },
-    {
-      title: "Instagram",
-      value: "Follow",
-      icon: <FaInstagram />,
-      link: "https://www.instagram.com/rushikesh_kale_deshmukh/"
-    }
+ 
   ];
 
   return (
