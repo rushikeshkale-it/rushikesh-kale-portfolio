@@ -94,7 +94,7 @@ export default function Home() {
               transition={{ delay: 0.15, duration: 0.6 }}
               className="home-desc"
             >
-              Application Support Engineer with 2+ years of hands-on experience keeping production systems running smoothly
+              Application Support Engineer with 1.9 years of hands-on experience keeping production systems running smoothly
             </motion.p>
 
             <motion.div
@@ -116,7 +116,7 @@ export default function Home() {
               <a href="https://github.com/rushikeshkale-it" target="_blank" rel="noreferrer" className="social-icon">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/rushikeshkale-it/" target="_blank" rel="noreferrer" className="social-icon">
+              <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer" className="social-icon">
                 <FaLinkedin />
               </a>
               <a href="https://x.com/Rushikeshkk" target="_blank" rel="noreferrer" className="social-icon">
